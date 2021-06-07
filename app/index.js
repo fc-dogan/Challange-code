@@ -18,7 +18,7 @@ const map = new mapboxgl.Map({
 
 map.addControl(
   new MapBoxGeocoder({
-    accessToken: mapboxgl.accessToken
+    accessToken: mapboxgl.accessToken,
     mapboxgl: mapboxgl,
   })
 );
